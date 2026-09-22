@@ -7,14 +7,25 @@
 
   <title>Tailwind Demo</title>
   <link href="./assets/output.css" rel="stylesheet">
+  <script src="index.js" defer></script>
 </head>
 
 <body>
   <main>
-    <h1 class="text-3xl font-bold underline">Hello World</h1>
-    <p class="text-xl text-slate-700 w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
-      accusamus
-      incidunt ipsa nobis quod maiores a ratione tenetur eveniet.</p>
+    <header>
+
+      <h1 class="text-3xl font-bold underline">Hello World</h1>
+      <p class="text-xl text-slate-700 w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe
+        accusamus
+        incidunt ipsa nobis quod maiores a ratione tenetur eveniet.</p>
+    </header>
+    <section>
+      <h2>Key Events</h2>
+      <div class="flex gap-4 w-50 bg-amber-100">
+        <div id="box-up" class="bg-blue-500 w-20 h-20 flex justify-center items-center">Box Up</div>
+        <div id="box-down" class="bg-blue-500 w-20 h-20 flex justify-center items-center">Box Down</div>
+      </div>
+    </section>
   </main>
 </body>
 
