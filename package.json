@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-demo",
+  "version": "1.0.0",
+  "description": "Demo of tailwind and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npx @tailwindcss/cli -i ./assets/styles.css -o ./assets/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
